@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+  
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="../videos/Scorpion.mp4" type="video/mp4">
+    Tu navegador no soporta video HTML5.
+  </video>
+
+ 
+  <div class="contact-container">
+    <h2>Contáctame</h2>
+    <form action="../html/index.html" method="GET">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="asunto">Asunto</label>
+      <input type="text" id="asunto" name="asunto" required>
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    </form>
+  </div>
+</body>
+</html>
